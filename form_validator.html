@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Valiformator 2000</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="form_validator.js"></script>
+</head>
+<body>
+  <h1>Valiformator 2000</h1>
+  <div id="form_box">
+    <form>
+      <label>Name:</label>
+      <input type="text" id="name" placeholder="username" autofocus>
+      <p id="name_warning" class="warning hidden">
+        Name must be more than 3 characters!
+      </p>
+      <label>Age:</label>
+      <input type="text" id="age" placeholder="age">
+       <p id="age_warning" class="warning hidden">
+        Age must be a valid age!
+      </p>
+      <label>Phone:</label>
+      <input type="text" id="phone" placeholder="phone">
+       <p id="phone_warning" class="warning hidden">
+        Can I please get your real phone number?
+      </p>
+      <label>Email:</label>
+      <input type="text" id="email" placeholder="email">
+       <p id="email_warning" class="warning hidden">
+        Sneaky, sneaky. Email must be valid!
+      </p>
+      <button>add</button>
+    </form>
+  </div>
+  <div id="profile_box">
+    <ol>
+      <li id="li_name">
+        name:
+      </li>
+      <li id="li_age">
+        age:
+      </li>
+      <li id="li_phone">
+        phone:
+      </li>
+      <li id="li_email">
+        email:
+      </li>
+    </ol>
+  </div>
+
+
+</body>
+</html>
